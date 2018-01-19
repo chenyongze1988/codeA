@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03A666C62012047800AD5331 /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A666C52012047800AD5331 /* DefinitionViewController.swift */; };
 		03C0100120108C9E0028A735 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C0100020108C9E0028A735 /* AppDelegate.swift */; };
 		03C0100320108C9F0028A735 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C0100220108C9F0028A735 /* ViewController.swift */; };
 		03C0100620108C9F0028A735 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C0100420108C9F0028A735 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03A666C52012047800AD5331 /* DefinitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
 		03C00FFD20108C9E0028A735 /* Emoji Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C0100020108C9E0028A735 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03C0100220108C9F0028A735 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			children = (
 				03C0100020108C9E0028A735 /* AppDelegate.swift */,
 				03C0100220108C9F0028A735 /* ViewController.swift */,
+				03A666C52012047800AD5331 /* DefinitionViewController.swift */,
 				03C0100420108C9F0028A735 /* Main.storyboard */,
 				03C0100A20108CA00028A735 /* Assets.xcassets */,
 				03C0100C20108CA00028A735 /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03C0100320108C9F0028A735 /* ViewController.swift in Sources */,
+				03A666C62012047800AD5331 /* DefinitionViewController.swift in Sources */,
 				03C0100120108C9E0028A735 /* AppDelegate.swift in Sources */,
 				03C0100920108C9F0028A735 /* Emoji_Dictionary.xcdatamodeld in Sources */,
 			);
