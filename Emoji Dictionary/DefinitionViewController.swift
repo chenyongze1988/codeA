@@ -14,8 +14,19 @@ class DefinitionViewController: UIViewController {
         super.viewDidLoad()
 
         emojiLabel.text=emoji
+        
+        if emoji=="😘"
+        {
+            definitionLabel.text="a cute emoji"
+        }
+        if emoji=="😀"
+        {
+            
+            definitionLabel.text="a smile emoji"
+        }
     }
 
+    @IBOutlet weak var definitionLabel: UILabel!
     @IBOutlet weak var emojiLabel: UILabel!
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

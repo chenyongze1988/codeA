@@ -100,6 +100,7 @@
                         <viewLayoutGuide key="safeArea" id="79l-gP-5i2"/>
                     </view>
                     <connections>
+                        <outlet property="definitionLabel" destination="nme-qp-vtL" id="9fZ-fl-flo"/>
                         <outlet property="emojiLabel" destination="qxK-pu-7gZ" id="2eJ-dg-t8S"/>
                     </connections>
                 </viewController>
