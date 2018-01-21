@@ -9,7 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource{
-    var emojis=["😀","😃","😄","😘","😗"]
+    var emojis=["😀","😃","🤩","😘","😗"]
+    
     @IBOutlet weak var dacooltableview: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,6 +28,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         
         let cell=UITableViewCell()
         cell.textLabel?.text=emojis[indexPath.row]
+        
         return cell
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -39,6 +41,8 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         let emoji=emojis[indexPath.row]
         performSegue(withIdentifier: "moveSegue", sender:emoji)
     }
+    
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

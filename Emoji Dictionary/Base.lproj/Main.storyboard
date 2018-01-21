@@ -89,24 +89,42 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BirthYear:2010" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="meU-0Q-UyQ">
+                                <rect key="frame" x="131" y="391" width="112" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category:Smile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TYd-hm-Df6">
+                                <rect key="frame" x="129.5" y="351" width="117" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="meU-0Q-UyQ" firstAttribute="top" secondItem="TYd-hm-Df6" secondAttribute="bottom" constant="19" id="0KU-gR-hwr"/>
                             <constraint firstItem="nme-qp-vtL" firstAttribute="top" secondItem="qxK-pu-7gZ" secondAttribute="bottom" constant="-24" id="1o9-Os-IQZ"/>
+                            <constraint firstItem="TYd-hm-Df6" firstAttribute="centerX" secondItem="Yqw-VO-DRr" secondAttribute="centerX" id="64e-7D-KDG"/>
                             <constraint firstItem="qxK-pu-7gZ" firstAttribute="top" secondItem="79l-gP-5i2" secondAttribute="top" constant="40" id="hGE-xs-ZqB"/>
+                            <constraint firstItem="TYd-hm-Df6" firstAttribute="top" secondItem="nme-qp-vtL" secondAttribute="bottom" constant="11" id="hHt-wW-vGa"/>
                             <constraint firstItem="qxK-pu-7gZ" firstAttribute="centerX" secondItem="Yqw-VO-DRr" secondAttribute="centerX" id="iG8-Le-dSP"/>
                             <constraint firstItem="nme-qp-vtL" firstAttribute="centerX" secondItem="Yqw-VO-DRr" secondAttribute="centerX" id="mPA-8D-naZ"/>
+                            <constraint firstItem="meU-0Q-UyQ" firstAttribute="centerX" secondItem="Yqw-VO-DRr" secondAttribute="centerX" id="xnP-Bj-zLM"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="79l-gP-5i2"/>
                     </view>
                     <connections>
+                        <outlet property="birthYearLabel" destination="meU-0Q-UyQ" id="Gil-if-yxg"/>
+                        <outlet property="categoryLabel" destination="TYd-hm-Df6" id="Sw9-SM-O52"/>
                         <outlet property="definitionLabel" destination="nme-qp-vtL" id="9fZ-fl-flo"/>
                         <outlet property="emojiLabel" destination="qxK-pu-7gZ" id="2eJ-dg-t8S"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eOg-Hh-S1F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1120.8" y="37.331334332833585"/>
+            <point key="canvasLocation" x="1321" y="36"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="n5n-DR-m6S">
